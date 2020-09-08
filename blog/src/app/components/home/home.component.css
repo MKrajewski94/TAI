@@ -1,0 +1,53 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    font-size: 14px;
+    background-color:rgb(134, 191, 255);
+}
+
+li {
+    display: inline;
+}
+
+.quiz-wrapper {
+    text-align: center;
+}
+.container {
+    margin-top: 50px;
+}
+
+.list-group-item {
+    cursor: pointer;
+    background-color:rgb(134, 191, 255);
+}
+
+.correct {
+    background-color: #289a27;
+}
+
+.incorrect {
+    background-color: #c41a21;
+}
+
+.buttons {
+    padding: 10px 10px 10px 0;
+}
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+.centered{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#form_wrapper {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
