@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BlogItemImageComponent } from './blog-item-image.component';
 
@@ -6,12 +6,12 @@ describe('BlogItemImageComponent', () => {
   let component: BlogItemImageComponent;
   let fixture: ComponentFixture<BlogItemImageComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
       declarations: [ BlogItemImageComponent ]
     })
     .compileComponents();
-  });
+  }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(BlogItemImageComponent);
